@@ -8,10 +8,11 @@ Repositório central de estudos, automações, scripts, práticas recomendadas e
 
 | Módulo | Descrição |
 |---|---|
-| [**01-Ansible**](./01-Ansible) | Playbooks, roles, inventários, boas práticas e automação de configuração com Ansible. |
+| [**00-trilhas**](./00-trilhas) | Scripts e roteiros para criação de trilhas de aprendizado e desenvolvimento. |
+| [**01-ansible**](./01-ansible) | Playbooks, roles, inventários, boas práticas e automação de configuração com Ansible. |
 | [**02-automacao-e-scripting**](./02-automacao-e-scripting) | Scripts de automação em Python e Shell para tarefas operacionais. |
 | [**03-bash**](./03-bash) | Guia e snippets de Shell Scripting do básico ao avançado, gestão de processos e logs. |
-| [**04-ci - cd**](./04-ci%20-%20cd) | Pipelines CI/CD com GitHub Actions, GitLab CI, Jenkins, GitOps e quality gates. |
+| [**04-ci-cd**](./04-ci-cd) | Pipelines CI/CD com GitHub Actions, GitLab CI, Jenkins, GitOps e quality gates. |
 | [**05-cloud-e-iac**](./05-cloud-e-iac) | Infraestrutura como Código (Terraform) e arquitetura em nuvem. |
 | [**06-devops-e-plataforma**](./06-devops-e-plataforma) | Engenharia de plataforma, esteiras de entrega contínua e padrões DevOps. |
 | [**07-docker**](./07-docker) | Fundamentos de containers, Dockerfile multi-stage, redes, volumes e Compose. |
@@ -19,8 +20,7 @@ Repositório central de estudos, automações, scripts, práticas recomendadas e
 | [**09-linux**](./09-linux) | Administração de sistemas Linux, permissões, systemd, redes, storage e troubleshooting. |
 | [**10-observabilidade-e-sre**](./10-observabilidade-e-sre) | Métricas, tracing e logs com Prometheus, Grafana e práticas de confiabilidade (SRE). |
 | [**11-python-entrevistas**](./11-python-entrevistas) | Algoritmos, estruturas de dados, system design e preparação técnica em Python. |
-| [**12sistemas-e-containers**](./12sistemas-e-containers) | Arquitetura de sistemas operacionais e orquestração de containers (Kubernetes/Docker). |
-| [**trilhas**](./trilhas) | Scripts e roteiros de criação de trilhas de aprendizado e desenvolvimento. |
+| [**old**](./old) | Arquivo histórico e versões anteriores preservadas (sem perda de dados). |
 
 ---
 

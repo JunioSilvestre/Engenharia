@@ -1,4 +1,4 @@
-<!-- gerado por criar_trilha.sh -->
+<!-- gerado por gerar_trilhas.sh -->
 # Multi-stage builds
 
 | Campo | Valor |

@@ -1,7 +1,7 @@
-<!-- gerado por criar_estrutura_linux.sh -->
-# Índice: preparação para entrevistas técnicas (Linux)
+<!-- gerado por gerar_trilhas.sh -->
+# Índice: Linux
 
-Categorias com links para cada pasta. Prioridades são sugestões para nível sênior.
+Prioridades são sugestões para nível sênior. Problemas são desafios práticos; exercícios são construções isoladas; projetos são soluções completas.
 
 | # | Categoria | Desafios e conhecimentos | Prioridade |
 |---|---|---|---|

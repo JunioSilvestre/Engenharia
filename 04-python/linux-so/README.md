@@ -1,11 +1,11 @@
-<!-- gerado por gerar_docs_treino.sh -->
+<!-- gerado por gerar_trilhas.sh -->
 # Linux / SO
 
 | Campo | Valor |
 |---|---|
-| Tipo | SO / Infra |
-| Prioridade (sênior) | Alta |
+| Trilha | Python |
 | Número na lista | 28 |
+| Prioridade (sugestão sênior) | Alta |
 
 ## Desafios e conhecimentos
 
@@ -13,13 +13,14 @@ Processos, threads, file descriptors, signals, strace, lsof, /proc, cgroups, sys
 
 ## Estrutura
 
-- `problemas/`: desafios algorítmicos curtos
-- `exercicios/`: tarefas focadas em um conceito
-- `projetos/`: programas completos
+- `problemas/`: desafio prático, com critério de sucesso
+- `exercicios/`: construção isolada de um conceito
+- `projetos/`: solução completa, com testes e documentação
 
 ## Exemplos iniciais
 
 - Problema: `problemas/ler-proc-status/`
+- Exercício: `exercicios/manipulacao-signals-processo/`
 - Projeto: `projetos/watchdog-servico-backoff/`
 
 ## Progresso
@@ -27,6 +28,7 @@ Processos, threads, file descriptors, signals, strace, lsof, /proc, cgroups, sys
 | Item | Status | Data |
 |---|---|---|
 | ler-proc-status | pendente | |
+| manipulacao-signals-processo | pendente | |
 | watchdog-servico-backoff | pendente | |
 
 <!-- fim do arquivo gerado -->

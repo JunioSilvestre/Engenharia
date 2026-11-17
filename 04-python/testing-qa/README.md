@@ -1,11 +1,11 @@
-<!-- gerado por gerar_docs_treino.sh -->
+<!-- gerado por gerar_trilhas.sh -->
 # Testing / QA
 
 | Campo | Valor |
 |---|---|
-| Tipo | Qualidade |
-| Prioridade (sênior) | Alta |
+| Trilha | Python |
 | Número na lista | 22 |
+| Prioridade (sugestão sênior) | Alta |
 
 ## Desafios e conhecimentos
 
@@ -13,13 +13,14 @@ pytest, fixtures, mocks, unit e integration tests
 
 ## Estrutura
 
-- `problemas/`: desafios algorítmicos curtos
-- `exercicios/`: tarefas focadas em um conceito
-- `projetos/`: programas completos
+- `problemas/`: desafio prático, com critério de sucesso
+- `exercicios/`: construção isolada de um conceito
+- `projetos/`: solução completa, com testes e documentação
 
 ## Exemplos iniciais
 
 - Problema: `problemas/mock-chamada-http/`
+- Exercício: `exercicios/fixtures-e-parametrizacao/`
 - Projeto: `projetos/suite-testes-parser-logs/`
 
 ## Progresso
@@ -27,6 +28,7 @@ pytest, fixtures, mocks, unit e integration tests
 | Item | Status | Data |
 |---|---|---|
 | mock-chamada-http | pendente | |
+| fixtures-e-parametrizacao | pendente | |
 | suite-testes-parser-logs | pendente | |
 
 <!-- fim do arquivo gerado -->

@@ -1,11 +1,11 @@
-<!-- gerado por gerar_docs_treino.sh -->
+<!-- gerado por gerar_trilhas.sh -->
 # Python Advanced
 
 | Campo | Valor |
 |---|---|
-| Tipo | Linguagem |
-| Prioridade (sênior) | Média |
+| Trilha | Python |
 | Número na lista | 16 |
+| Prioridade (sugestão sênior) | Média |
 
 ## Desafios e conhecimentos
 
@@ -13,13 +13,14 @@ Decorators, Generators, Iterators, Context Managers
 
 ## Estrutura
 
-- `problemas/`: desafios algorítmicos curtos
-- `exercicios/`: tarefas focadas em um conceito
-- `projetos/`: programas completos
+- `problemas/`: desafio prático, com critério de sucesso
+- `exercicios/`: construção isolada de um conceito
+- `projetos/`: solução completa, com testes e documentação
 
 ## Exemplos iniciais
 
 - Problema: `problemas/decorator-medir-tempo/`
+- Exercício: `exercicios/context-manager-customizado/`
 - Projeto: `projetos/pipeline-generators-logs/`
 
 ## Progresso
@@ -27,6 +28,7 @@ Decorators, Generators, Iterators, Context Managers
 | Item | Status | Data |
 |---|---|---|
 | decorator-medir-tempo | pendente | |
+| context-manager-customizado | pendente | |
 | pipeline-generators-logs | pendente | |
 
 <!-- fim do arquivo gerado -->

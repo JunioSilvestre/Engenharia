@@ -1,7 +1,7 @@
-<!-- gerado por criar_estrutura_bash.sh -->
-# Índice: preparação para entrevistas técnicas (Bash)
+<!-- gerado por gerar_trilhas.sh -->
+# Índice: Bash
 
-Categorias com links para cada pasta. Prioridades são sugestões para nível sênior. Problemas são pequenos scripts de desafio; exercícios são construções isoladas; projetos são automações completas.
+Prioridades são sugestões para nível sênior. Problemas são desafios práticos; exercícios são construções isoladas; projetos são soluções completas.
 
 | # | Categoria | Desafios e conhecimentos | Prioridade |
 |---|---|---|---|

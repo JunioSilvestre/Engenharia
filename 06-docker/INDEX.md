@@ -1,4 +1,4 @@
-<!-- gerado por criar_trilha.sh -->
+<!-- gerado por gerar_trilhas.sh -->
 # Índice: Docker
 
 Prioridades são sugestões para nível sênior. Problemas são desafios práticos; exercícios são construções isoladas; projetos são soluções completas.

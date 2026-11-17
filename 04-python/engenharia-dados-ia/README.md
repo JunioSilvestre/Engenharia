@@ -1,11 +1,11 @@
-<!-- gerado por gerar_docs_treino.sh -->
+<!-- gerado por gerar_trilhas.sh -->
 # Engenharia de dados e ML/IA
 
 | Campo | Valor |
 |---|---|
-| Tipo | IA / Dados |
-| Prioridade (sênior) | Média (alta para vagas de IA) |
+| Trilha | Python |
 | Número na lista | 35 |
+| Prioridade (sugestão sênior) | Média |
 
 ## Desafios e conhecimentos
 
@@ -13,13 +13,14 @@ Pipelines, schema evolution, MLOps básico, avaliação de modelos, chamadas a L
 
 ## Estrutura
 
-- `problemas/`: desafios algorítmicos curtos
-- `exercicios/`: tarefas focadas em um conceito
-- `projetos/`: programas completos
+- `problemas/`: desafio prático, com critério de sucesso
+- `exercicios/`: construção isolada de um conceito
+- `projetos/`: solução completa, com testes e documentação
 
 ## Exemplos iniciais
 
 - Problema: `problemas/chunking-texto-embeddings/`
+- Exercício: `exercicios/integracao-api-llm-retry/`
 - Projeto: `projetos/pipeline-avaliacao-llm/`
 
 ## Progresso
@@ -27,6 +28,7 @@ Pipelines, schema evolution, MLOps básico, avaliação de modelos, chamadas a L
 | Item | Status | Data |
 |---|---|---|
 | chunking-texto-embeddings | pendente | |
+| integracao-api-llm-retry | pendente | |
 | pipeline-avaliacao-llm | pendente | |
 
 <!-- fim do arquivo gerado -->

@@ -1,11 +1,11 @@
-<!-- gerado por gerar_docs_treino.sh -->
+<!-- gerado por gerar_trilhas.sh -->
 # Resiliência
 
 | Campo | Valor |
 |---|---|
-| Tipo | Operação |
-| Prioridade (sênior) | Alta |
+| Trilha | Python |
 | Número na lista | 31 |
+| Prioridade (sugestão sênior) | Alta |
 
 ## Desafios e conhecimentos
 
@@ -13,13 +13,14 @@ Retries com backoff e jitter, timeouts, circuit breaker, idempotência, graceful
 
 ## Estrutura
 
-- `problemas/`: desafios algorítmicos curtos
-- `exercicios/`: tarefas focadas em um conceito
-- `projetos/`: programas completos
+- `problemas/`: desafio prático, com critério de sucesso
+- `exercicios/`: construção isolada de um conceito
+- `projetos/`: solução completa, com testes e documentação
 
 ## Exemplos iniciais
 
 - Problema: `problemas/retry-com-jitter/`
+- Exercício: `exercicios/graceful-shutdown-signals/`
 - Projeto: `projetos/cliente-circuit-breaker/`
 
 ## Progresso
@@ -27,6 +28,7 @@ Retries com backoff e jitter, timeouts, circuit breaker, idempotência, graceful
 | Item | Status | Data |
 |---|---|---|
 | retry-com-jitter | pendente | |
+| graceful-shutdown-signals | pendente | |
 | cliente-circuit-breaker | pendente | |
 
 <!-- fim do arquivo gerado -->

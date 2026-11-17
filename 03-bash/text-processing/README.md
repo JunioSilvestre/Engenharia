@@ -1,8 +1,9 @@
-<!-- gerado por criar_estrutura_bash.sh -->
+<!-- gerado por gerar_trilhas.sh -->
 # Text Processing
 
 | Campo | Valor |
 |---|---|
+| Trilha | Bash |
 | Número na lista | 10 |
 | Prioridade (sugestão sênior) | Alta |
 
@@ -12,9 +13,9 @@ grep, sed, awk, cut, sort, uniq
 
 ## Estrutura
 
-- `problemas/`: pequeno script de desafio
-- `exercicios/`: construção isolada (sintaxe ou comando)
-- `projetos/`: automação completa, com testes e logs
+- `problemas/`: desafio prático, com critério de sucesso
+- `exercicios/`: construção isolada de um conceito
+- `projetos/`: solução completa, com testes e documentação
 
 ## Exemplos iniciais
 

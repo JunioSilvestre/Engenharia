@@ -1,11 +1,11 @@
-<!-- gerado por gerar_docs_treino.sh -->
+<!-- gerado por gerar_trilhas.sh -->
 # Sorting / Searching
 
 | Campo | Valor |
 |---|---|
-| Tipo | Algoritmos |
-| Prioridade (sênior) | Média |
+| Trilha | Python |
 | Número na lista | 7 |
+| Prioridade (sugestão sênior) | Média |
 
 ## Desafios e conhecimentos
 
@@ -13,13 +13,14 @@ Binary Search, uso de sorted com key, noção de Merge e Quick Sort
 
 ## Estrutura
 
-- `problemas/`: desafios algorítmicos curtos
-- `exercicios/`: tarefas focadas em um conceito
-- `projetos/`: programas completos
+- `problemas/`: desafio prático, com critério de sucesso
+- `exercicios/`: construção isolada de um conceito
+- `projetos/`: solução completa, com testes e documentação
 
 ## Exemplos iniciais
 
 - Problema: `problemas/busca-binaria-rotacionada/`
+- Exercício: `exercicios/ordenacao-customizada-lambda/`
 - Projeto: `projetos/ranking-latencia-servicos/`
 
 ## Progresso
@@ -27,6 +28,7 @@ Binary Search, uso de sorted com key, noção de Merge e Quick Sort
 | Item | Status | Data |
 |---|---|---|
 | busca-binaria-rotacionada | pendente | |
+| ordenacao-customizada-lambda | pendente | |
 | ranking-latencia-servicos | pendente | |
 
 <!-- fim do arquivo gerado -->

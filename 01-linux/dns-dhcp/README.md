@@ -1,8 +1,9 @@
-<!-- gerado por criar_estrutura_linux.sh -->
+<!-- gerado por gerar_trilhas.sh -->
 # DNS / DHCP
 
 | Campo | Valor |
 |---|---|
+| Trilha | Linux |
 | Número na lista | 18 |
 | Prioridade (sugestão sênior) | Média |
 
@@ -12,9 +13,9 @@ BIND9, dig, nslookup, DHCP
 
 ## Estrutura
 
-- `problemas/`: cenário prático resolvido pelo terminal
-- `exercicios/`: tarefa curta focada em um comando ou conceito
-- `projetos/`: script, runbook ou playbook completo
+- `problemas/`: desafio prático, com critério de sucesso
+- `exercicios/`: construção isolada de um conceito
+- `projetos/`: solução completa, com testes e documentação
 
 ## Exemplos iniciais
 

@@ -1,8 +1,9 @@
-<!-- gerado por criar_estrutura_bash.sh -->
+<!-- gerado por gerar_trilhas.sh -->
 # Operators
 
 | Campo | Valor |
 |---|---|
+| Trilha | Bash |
 | Número na lista | 4 |
 | Prioridade (sugestão sênior) | Média |
 
@@ -12,9 +13,9 @@ Comparações, operadores lógicos e aritméticos
 
 ## Estrutura
 
-- `problemas/`: pequeno script de desafio
-- `exercicios/`: construção isolada (sintaxe ou comando)
-- `projetos/`: automação completa, com testes e logs
+- `problemas/`: desafio prático, com critério de sucesso
+- `exercicios/`: construção isolada de um conceito
+- `projetos/`: solução completa, com testes e documentação
 
 ## Exemplos iniciais
 

@@ -1,11 +1,11 @@
-<!-- gerado por gerar_docs_treino.sh -->
+<!-- gerado por gerar_trilhas.sh -->
 # Observabilidade
 
 | Campo | Valor |
 |---|---|
-| Tipo | Operação |
-| Prioridade (sênior) | Alta |
+| Trilha | Python |
 | Número na lista | 30 |
+| Prioridade (sugestão sênior) | Alta |
 
 ## Desafios e conhecimentos
 
@@ -13,13 +13,14 @@ Logs estruturados, métricas (Prometheus), tracing (OpenTelemetry), SLIs/SLOs
 
 ## Estrutura
 
-- `problemas/`: desafios algorítmicos curtos
-- `exercicios/`: tarefas focadas em um conceito
-- `projetos/`: programas completos
+- `problemas/`: desafio prático, com critério de sucesso
+- `exercicios/`: construção isolada de um conceito
+- `projetos/`: solução completa, com testes e documentação
 
 ## Exemplos iniciais
 
 - Problema: `problemas/logs-estruturados-json/`
+- Exercício: `exercicios/tracing-requisicoes-otel/`
 - Projeto: `projetos/exporter-metricas-prometheus/`
 
 ## Progresso
@@ -27,6 +28,7 @@ Logs estruturados, métricas (Prometheus), tracing (OpenTelemetry), SLIs/SLOs
 | Item | Status | Data |
 |---|---|---|
 | logs-estruturados-json | pendente | |
+| tracing-requisicoes-otel | pendente | |
 | exporter-metricas-prometheus | pendente | |
 
 <!-- fim do arquivo gerado -->

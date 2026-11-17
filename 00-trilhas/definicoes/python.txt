@@ -1,0 +1,36 @@
+1|arrays-lists|Arrays / Lists|Ordenação, duplicados, maior/menor valor, rotações|Alta|monitor-metricas-cpu|rotacao-array|manipulacao-fatiamento-listas
+2|strings|Strings|Palíndromos, anagramas, parsing, regex|Alta|analisador-auth-log|palindromo-alfanumerico|formatacao-e-parsing-strings
+3|dictionaries-hash-maps|Dictionaries / Hash Maps|Frequência, agrupamento, busca por chave|Alta|cache-lru-dns|two-sum|contagem-frequencia-chaves
+4|sets|Sets|Unicidade, interseção, diferença|Média|auditoria-grupos-usuarios|interseccao-permissoes|remocao-duplicatas-set
+5|tuples|Tuples|Imutabilidade, desempacotamento, retorno múltiplo|Média|parser-registros-imutaveis|retorno-multiplo-min-max|namedtuple-registros
+6|numbers-math|Numbers / Math|Primos, Fibonacci, fatoriais, operações matemáticas|Baixa|calculadora-estatisticas-series|primos-ate-n|operacoes-aritmeticas-bit-a-bit
+7|sorting-searching|Sorting / Searching|Binary Search, uso de sorted com key, noção de Merge e Quick Sort|Média|ranking-latencia-servicos|busca-binaria-rotacionada|ordenacao-customizada-lambda
+8|recursion|Recursion|Árvore de recursão, memoização, quando não usar|Média|explorador-arvore-diretorios|fibonacci-memoizado|busca-em-arvore-recursiva
+9|algorithms|Algorithms|Two Pointers, Sliding Window, Greedy, BFS/DFS, Dijkstra|Alta|detector-janela-deslizante-metricas|two-pointers-soma-alvo|busca-em-largura-grafo
+10|data-structures|Data Structures|Stack, Queue, deque, Linked List, Trees, Graphs, Heap, bisect|Alta|fila-tarefas-com-prioridade|validar-parenteses|fila-com-deque
+11|complexity-big-o|Complexity / Big O|Time e Space Complexity, otimização com medição|Alta|benchmark-estruturas-dados|reduzir-complexidade-quadratica|medicao-tempo-execucao
+12|dates-time|Dates / Time|datetime, timezone, timedelta, UTC|Média|agendador-backups-utc|diferenca-dias-fusos|parsing-datas-iso8601
+13|files-io|Files / I/O|Arquivos, CSV, JSON, pathlib, logs|Média|rotacao-logs-por-tamanho|contar-linhas-arquivo-grande|leitura-escrita-json-pathlib
+14|regular-expressions|Regular Expressions|Validação, extração e transformação de texto|Média|validador-config-regex|extrair-emails-texto|substituicao-padroes-re
+15|oop|OOP|Classes, herança, encapsulamento, polimorfismo, Protocols e ABCs|Média|sistema-alertas-polimorfico|classe-conta-encapsulada|heranca-e-dataclasses
+16|python-advanced|Python Advanced|Decorators, Generators, Iterators, Context Managers|Média|pipeline-generators-logs|decorator-medir-tempo|context-manager-customizado
+17|exception-handling|Exception Handling|Try/Except, custom exceptions, logging|Média|cliente-api-com-retry|excecao-customizada-validacao|tratamento-erros-hierarquia
+18|functional-programming|Functional Programming|Lambda, map, filter, comprehensions|Baixa|transformador-eventos-pipeline|map-filter-comprehension|pipeline-com-functools
+19|concurrency-async|Concorrência|GIL, threads vs processos vs asyncio, race conditions, locks, concurrent.futures, async/await|Alta|coletor-status-async|race-condition-contador|pool-threads-download
+20|sql-databases|SQL / Databases|PostgreSQL, SQL Server, JOIN, índices compostos, EXPLAIN, transações|Alta|relatorio-sql-indices|join-agregacao-pedidos|conexao-pool-e-crud
+21|apis-backend|APIs / Backend|REST, HTTP, FastAPI, Django, Flask, Pydantic|Alta|api-metricas-fastapi|validar-payload-pydantic|crud-com-rotas-e-docs
+22|testing-qa|Testing / QA|pytest, fixtures, mocks, unit e integration tests|Alta|suite-testes-parser-logs|mock-chamada-http|fixtures-e-parametrizacao
+23|data-engineering|Data Engineering|Pandas, NumPy, ETL, Airflow, processamento em lote, idempotência|Média|etl-csv-para-banco|agregacao-pandas-grupos|dataframe-limpeza-transformacao
+24|cloud-deployment|Cloud / Deployment|AWS, Azure, Docker, Kubernetes, CI/CD|Alta|pipeline-ci-docker|dockerfile-multistage|deploy-imagem-container
+25|security|Security|Authentication, Authorization, JWT, OAuth2, secrets, validação de entrada, injeção SQL, dependências vulneráveis|Alta|verificador-jwt-expiracao|hash-senha-seguro|sanitizacao-dados-entrada
+26|code-quality|Code Quality|Type Hints, Ruff, Black, PEP 8, clean code, SOLID, injeção de dependência|Alta|refatoracao-com-type-hints|aplicar-solid-modulo|linting-ruff-e-mypy
+27|system-design|System Design|Escalabilidade, cache, filas, load balancing, consistência, particionamento, design de APIs|Alta|design-encurtador-url|consistency-trade-offs|arquitetura-cache-redis
+28|linux-so|Linux / SO|Processos, threads, file descriptors, signals, strace, lsof, /proc, cgroups, systemd|Alta|watchdog-servico-backoff|ler-proc-status|manipulacao-signals-processo
+29|performance-profiling|Performance e profiling|cProfile, timeit, py-spy, memory profiling, vetorização, alocações|Alta|otimizacao-processamento-logs|profilar-funcao-lenta|profile-memoria-tracemalloc
+30|observabilidade|Observabilidade|Logs estruturados, métricas (Prometheus), tracing (OpenTelemetry), SLIs/SLOs|Alta|exporter-metricas-prometheus|logs-estruturados-json|tracing-requisicoes-otel
+31|resiliencia|Resiliência|Retries com backoff e jitter, timeouts, circuit breaker, idempotência, graceful shutdown|Alta|cliente-circuit-breaker|retry-com-jitter|graceful-shutdown-signals
+32|debugging|Debugging e troubleshooting|Reproduzir bug, ler traceback, isolar causa, incidente em produção|Média-alta|reproducao-bug-traceback|isolar-causa-regressao|depuracao-com-pdb
+33|packaging-ambiente|Packaging e ambiente|pyproject.toml, venv, uv/poetry, lock files, versionamento semântico|Média|projeto-pyproject-cli|lock-dependencias|criacao-pacote-wheel
+34|git-colaboracao|Git e colaboração|Rebase vs merge, revisão de PR, conflitos, branching|Média|fluxo-pr-com-revisao|resolver-conflito-rebase|automacao-git-hooks
+35|engenharia-dados-ia|Engenharia de dados e ML/IA|Pipelines, schema evolution, MLOps básico, avaliação de modelos, chamadas a LLMs (custo, latência, retries, fallback)|Média|pipeline-avaliacao-llm|chunking-texto-embeddings|integracao-api-llm-retry
+36|comportamental-star|Comportamental (STAR)|Conflitos, decisões difíceis, liderança técnica, mentoria, incidentes|Alta|historias-incidente-star|caso-decisao-tecnica|preparacao-matriz-star

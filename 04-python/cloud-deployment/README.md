@@ -1,11 +1,11 @@
-<!-- gerado por gerar_docs_treino.sh -->
+<!-- gerado por gerar_trilhas.sh -->
 # Cloud / Deployment
 
 | Campo | Valor |
 |---|---|
-| Tipo | Operação |
-| Prioridade (sênior) | Alta |
+| Trilha | Python |
 | Número na lista | 24 |
+| Prioridade (sugestão sênior) | Alta |
 
 ## Desafios e conhecimentos
 
@@ -13,13 +13,14 @@ AWS, Azure, Docker, Kubernetes, CI/CD
 
 ## Estrutura
 
-- `problemas/`: desafios algorítmicos curtos
-- `exercicios/`: tarefas focadas em um conceito
-- `projetos/`: programas completos
+- `problemas/`: desafio prático, com critério de sucesso
+- `exercicios/`: construção isolada de um conceito
+- `projetos/`: solução completa, com testes e documentação
 
 ## Exemplos iniciais
 
 - Problema: `problemas/dockerfile-multistage/`
+- Exercício: `exercicios/deploy-imagem-container/`
 - Projeto: `projetos/pipeline-ci-docker/`
 
 ## Progresso
@@ -27,6 +28,7 @@ AWS, Azure, Docker, Kubernetes, CI/CD
 | Item | Status | Data |
 |---|---|---|
 | dockerfile-multistage | pendente | |
+| deploy-imagem-container | pendente | |
 | pipeline-ci-docker | pendente | |
 
 <!-- fim do arquivo gerado -->

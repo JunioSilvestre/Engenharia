@@ -1,11 +1,11 @@
-<!-- gerado por gerar_docs_treino.sh -->
+<!-- gerado por gerar_trilhas.sh -->
 # Security
 
 | Campo | Valor |
 |---|---|
-| Tipo | Segurança |
-| Prioridade (sênior) | Alta |
+| Trilha | Python |
 | Número na lista | 25 |
+| Prioridade (sugestão sênior) | Alta |
 
 ## Desafios e conhecimentos
 
@@ -13,13 +13,14 @@ Authentication, Authorization, JWT, OAuth2, secrets, validação de entrada, inj
 
 ## Estrutura
 
-- `problemas/`: desafios algorítmicos curtos
-- `exercicios/`: tarefas focadas em um conceito
-- `projetos/`: programas completos
+- `problemas/`: desafio prático, com critério de sucesso
+- `exercicios/`: construção isolada de um conceito
+- `projetos/`: solução completa, com testes e documentação
 
 ## Exemplos iniciais
 
 - Problema: `problemas/hash-senha-seguro/`
+- Exercício: `exercicios/sanitizacao-dados-entrada/`
 - Projeto: `projetos/verificador-jwt-expiracao/`
 
 ## Progresso
@@ -27,6 +28,7 @@ Authentication, Authorization, JWT, OAuth2, secrets, validação de entrada, inj
 | Item | Status | Data |
 |---|---|---|
 | hash-senha-seguro | pendente | |
+| sanitizacao-dados-entrada | pendente | |
 | verificador-jwt-expiracao | pendente | |
 
 <!-- fim do arquivo gerado -->

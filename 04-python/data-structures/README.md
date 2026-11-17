@@ -1,11 +1,11 @@
-<!-- gerado por gerar_docs_treino.sh -->
+<!-- gerado por gerar_trilhas.sh -->
 # Data Structures
 
 | Campo | Valor |
 |---|---|
-| Tipo | Algoritmos |
-| Prioridade (sênior) | Alta |
+| Trilha | Python |
 | Número na lista | 10 |
+| Prioridade (sugestão sênior) | Alta |
 
 ## Desafios e conhecimentos
 
@@ -13,13 +13,14 @@ Stack, Queue, deque, Linked List, Trees, Graphs, Heap, bisect
 
 ## Estrutura
 
-- `problemas/`: desafios algorítmicos curtos
-- `exercicios/`: tarefas focadas em um conceito
-- `projetos/`: programas completos
+- `problemas/`: desafio prático, com critério de sucesso
+- `exercicios/`: construção isolada de um conceito
+- `projetos/`: solução completa, com testes e documentação
 
 ## Exemplos iniciais
 
 - Problema: `problemas/validar-parenteses/`
+- Exercício: `exercicios/fila-com-deque/`
 - Projeto: `projetos/fila-tarefas-com-prioridade/`
 
 ## Progresso
@@ -27,6 +28,7 @@ Stack, Queue, deque, Linked List, Trees, Graphs, Heap, bisect
 | Item | Status | Data |
 |---|---|---|
 | validar-parenteses | pendente | |
+| fila-com-deque | pendente | |
 | fila-tarefas-com-prioridade | pendente | |
 
 <!-- fim do arquivo gerado -->

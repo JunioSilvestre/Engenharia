@@ -1,11 +1,11 @@
-<!-- gerado por gerar_docs_treino.sh -->
+<!-- gerado por gerar_trilhas.sh -->
 # Debugging e troubleshooting
 
 | Campo | Valor |
 |---|---|
-| Tipo | Operação |
-| Prioridade (sênior) | Média-alta |
+| Trilha | Python |
 | Número na lista | 32 |
+| Prioridade (sugestão sênior) | Média-alta |
 
 ## Desafios e conhecimentos
 
@@ -13,13 +13,14 @@ Reproduzir bug, ler traceback, isolar causa, incidente em produção
 
 ## Estrutura
 
-- `problemas/`: desafios algorítmicos curtos
-- `exercicios/`: tarefas focadas em um conceito
-- `projetos/`: programas completos
+- `problemas/`: desafio prático, com critério de sucesso
+- `exercicios/`: construção isolada de um conceito
+- `projetos/`: solução completa, com testes e documentação
 
 ## Exemplos iniciais
 
 - Problema: `problemas/isolar-causa-regressao/`
+- Exercício: `exercicios/depuracao-com-pdb/`
 - Projeto: `projetos/reproducao-bug-traceback/`
 
 ## Progresso
@@ -27,6 +28,7 @@ Reproduzir bug, ler traceback, isolar causa, incidente em produção
 | Item | Status | Data |
 |---|---|---|
 | isolar-causa-regressao | pendente | |
+| depuracao-com-pdb | pendente | |
 | reproducao-bug-traceback | pendente | |
 
 <!-- fim do arquivo gerado -->

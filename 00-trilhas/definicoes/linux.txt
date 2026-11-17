@@ -1,0 +1,24 @@
+1|linux-fundamentals|Linux Fundamentals|Kernel, distributions, filesystem, boot process|Média|relatorio-sistema-bash|identificar-distro-e-kernel|mapear-fases-do-boot
+2|filesystem|Filesystem|/etc, /var, /home, /proc, /sys, FHS|Média|auditoria-fhs|encontrar-onde-fica-arquivo|diferenca-var-e-usr
+3|file-management|File Management|ls, find, locate, stat, cp, mv, rm|Alta|organizador-downloads|encontrar-arquivos-grandes|find-com-tempo-e-tamanho
+4|permissions|Permissions|chmod, chown, umask, ACL, sudo|Alta|auditoria-suid-sgid|corrigir-permissao-diretorio-compartilhado|calcular-umask
+5|users-groups|Users / Groups|useradd, usermod, passwd, groupadd|Alta|provisionamento-usuarios-csv|bloquear-conta-expirada|adicionar-grupo-sem-perder-outros
+6|process-management|Process Management|ps, top, htop, kill, nice, jobs|Alta|watchdog-processo|matar-processo-travado|jobs-fg-bg-nohup
+7|services-systemd|Services / systemd|systemctl, units, targets, services|Alta|unidade-systemd-customizada|servico-nao-inicia-no-boot|override-com-systemctl-edit
+8|logs-troubleshooting|Logs / Troubleshooting|journalctl, /var/log, dmesg, logrotate|Alta|analisador-journal-erros|diagnosticar-disco-cheio-por-log|filtrar-journalctl-por-tempo
+9|networking|Networking|ip, ss, ping, traceroute, DNS, routing|Alta|diagnostico-conectividade|sem-internet-mas-ping-no-gateway|adicionar-rota-estatica
+10|storage-management|Storage Management|fdisk, parted, lsblk, blkid, mount|Média|relatorio-discos-montagens|montar-disco-por-uuid|particionar-com-parted
+11|lvm-raid|LVM / RAID|PV, VG, LV, RAID 0/1/5/10|Média|provisionar-lvm-com-snapshot|estender-lv-online|criar-raid1-mdadm
+12|package-management|Package Management|apt, dpkg, dnf, rpm|Alta|repositorio-local-pacotes|descobrir-pacote-do-arquivo|instalar-deb-com-dependencias
+13|ssh-remote-access|SSH / Remote Access|ssh, ssh-keygen, sshd, SCP, SFTP|Alta|hardening-sshd|acesso-ssh-recusado|tunel-ssh-local
+14|security|Security|SELinux, AppArmor, firewall, SSH hardening|Alta|script-hardening-basico|portas-abertas-inesperadas|configurar-ufw-regras
+15|scheduling|Scheduling|cron, crontab, systemd timers|Média|backup-agendado-systemd-timer|cron-nao-executa|escrever-expressao-cron
+16|performance|Performance|CPU, RAM, swap, I/O, load average|Alta|coletor-metricas-sar|load-alto-com-cpu-ociosa|interpretar-vmstat
+17|boot-recovery|Boot / Recovery|GRUB, initramfs, rescue mode|Alta|runbook-recuperacao-grub|sistema-nao-inicia-fstab-errado|entrar-em-rescue-mode
+18|dns-dhcp|DNS / DHCP|BIND9, dig, nslookup, DHCP|Média|servidor-dns-interno-bind|nome-nao-resolve|consultar-com-dig
+19|web-services|Web Services|Apache, Nginx, reverse proxy, TLS|Média|nginx-proxy-reverso-tls|502-bad-gateway|redirect-http-para-https
+20|containers|Containers|Docker, Podman, namespaces, cgroups|Alta|ambiente-docker-com-volumes|container-sem-acesso-a-rede|inspecionar-namespaces
+21|linux-automation|Linux Automation|Bash, Python, Ansible|Alta|playbook-ansible-hardening|script-nao-idempotente|funcao-bash-com-tratamento-de-erro
+22|kernel-advanced|Kernel / Advanced|modules, sysctl, kernel parameters|Média|ajuste-sysctl-rede|modulo-nao-carrega|ler-parametros-proc-sys
+23|backup-recovery|Backup / Recovery|rsync, tar, snapshots, restore|Alta|backup-rsync-incremental|verificar-integridade-tar|restaurar-arquivo-unico
+24|enterprise-linux|Enterprise Linux|RHEL, Ubuntu Server, Rocky Linux|Média|comparativo-rhel-ubuntu|diferencas-dnf-apt|identificar-release-e-suporte

@@ -1,11 +1,11 @@
-<!-- gerado por gerar_docs_treino.sh -->
+<!-- gerado por gerar_trilhas.sh -->
 # System Design
 
 | Campo | Valor |
 |---|---|
-| Tipo | Arquitetura |
-| Prioridade (sênior) | Alta |
+| Trilha | Python |
 | Número na lista | 27 |
+| Prioridade (sugestão sênior) | Alta |
 
 ## Desafios e conhecimentos
 
@@ -13,13 +13,14 @@ Escalabilidade, cache, filas, load balancing, consistência, particionamento, de
 
 ## Estrutura
 
-- `problemas/`: desafios algorítmicos curtos
-- `exercicios/`: tarefas focadas em um conceito
-- `projetos/`: programas completos
+- `problemas/`: desafio prático, com critério de sucesso
+- `exercicios/`: construção isolada de um conceito
+- `projetos/`: solução completa, com testes e documentação
 
 ## Exemplos iniciais
 
 - Problema: `problemas/consistency-trade-offs/`
+- Exercício: `exercicios/arquitetura-cache-redis/`
 - Projeto: `projetos/design-encurtador-url/`
 
 ## Progresso
@@ -27,6 +28,7 @@ Escalabilidade, cache, filas, load balancing, consistência, particionamento, de
 | Item | Status | Data |
 |---|---|---|
 | consistency-trade-offs | pendente | |
+| arquitetura-cache-redis | pendente | |
 | design-encurtador-url | pendente | |
 
 <!-- fim do arquivo gerado -->

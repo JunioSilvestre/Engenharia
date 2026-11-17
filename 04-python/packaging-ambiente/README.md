@@ -1,11 +1,11 @@
-<!-- gerado por gerar_docs_treino.sh -->
+<!-- gerado por gerar_trilhas.sh -->
 # Packaging e ambiente
 
 | Campo | Valor |
 |---|---|
-| Tipo | Operação |
-| Prioridade (sênior) | Média |
+| Trilha | Python |
 | Número na lista | 33 |
+| Prioridade (sugestão sênior) | Média |
 
 ## Desafios e conhecimentos
 
@@ -13,13 +13,14 @@ pyproject.toml, venv, uv/poetry, lock files, versionamento semântico
 
 ## Estrutura
 
-- `problemas/`: desafios algorítmicos curtos
-- `exercicios/`: tarefas focadas em um conceito
-- `projetos/`: programas completos
+- `problemas/`: desafio prático, com critério de sucesso
+- `exercicios/`: construção isolada de um conceito
+- `projetos/`: solução completa, com testes e documentação
 
 ## Exemplos iniciais
 
 - Problema: `problemas/lock-dependencias/`
+- Exercício: `exercicios/criacao-pacote-wheel/`
 - Projeto: `projetos/projeto-pyproject-cli/`
 
 ## Progresso
@@ -27,6 +28,7 @@ pyproject.toml, venv, uv/poetry, lock files, versionamento semântico
 | Item | Status | Data |
 |---|---|---|
 | lock-dependencias | pendente | |
+| criacao-pacote-wheel | pendente | |
 | projeto-pyproject-cli | pendente | |
 
 <!-- fim do arquivo gerado -->

@@ -41,6 +41,7 @@ Basta passar o nome da trilha como argumento:
 ./gerar_trilhas.sh docker
 ./gerar_trilhas.sh ansible
 ./gerar_trilhas.sh cicd
+./gerar_trilhas.sh sql-postgresql
 ```
 
 ### 3. Execução personalizada para novo arquivo/destino

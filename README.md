@@ -8,16 +8,16 @@ Repositório central de estudos, automações, scripts, práticas recomendadas e
 
 | Módulo | Descrição |
 |---|---|
-| [**00-trilhas**](./00-trilhas) | Scripts e roteiros para criação de trilhas de aprendizado e desenvolvimento. |
-| [**01-linux**](./01-linux) | Administração de sistemas Linux, permissões, systemd, redes, storage e troubleshooting. |
+| [**00-trilhas**](./00-trilhas) | Scripts e roteiros para criação e sincronização de trilhas de aprendizado. |
+| [**01-linux**](./01-linux) | Administração de sistemas Linux, permissões, systemd, redes, 180 laboratórios e guias do básico ao expert. |
 | [**02-git**](./02-git) | Estratégias de branching, convenções de commit, hooks, rebase e resolução de conflitos. |
 | [**03-bash**](./03-bash) | Guia e snippets de Shell Scripting do básico ao avançado, gestão de processos e logs. |
-| [**04-python**](./04-python) | Algoritmos, estruturas de dados, APIs, POO, testes e preparação técnica em Python. |
-| [**05-automacao**](./05-automacao) | Scripts de automação operacional em Python e Shell. |
-| [**06-docker**](./06-docker) | Fundamentos de containers, Dockerfile multi-stage, redes, volumes e Compose. |
-| [**07-cloud-e-iac**](./07-cloud-e-iac) | Infraestrutura como Código (Terraform) e arquitetura em nuvem. |
+| [**04-python**](./04-python) | Algoritmos, estruturas de dados, APIs, POO, testes e trilha completa de SQL/PostgreSQL. |
+| [**05-automacao**](./05-automacao) | Scripts de automação operacional em Python e Shell com projetos e laboratórios práticos. |
+| [**06-docker**](./06-docker) | Fundamentos de containers, Compose, Dockerfile multi-stage, Kubernetes, Helm e laboratórios. |
+| [**07-cloud-e-iac**](./07-cloud-e-iac) | Infraestrutura como Código (Terraform) e arquitetura em nuvem (AWS/Azure/GCP). |
 | [**08-ansible**](./08-ansible) | Playbooks, roles, inventários, boas práticas e automação de configuração com Ansible. |
-| [**09-ci-cd**](./09-ci-cd) | Pipelines CI/CD com GitHub Actions, GitLab CI, Jenkins, GitOps e quality gates. |
+| [**09-ci-cd**](./09-ci-cd) | Pipelines CI/CD (GitHub Actions, GitLab CI, Jenkins, GitOps) e Platform Engineering (Backstage, IDP). |
 | [**10-observabilidade**](./10-observabilidade) | Métricas, tracing e logs com Prometheus, Grafana e práticas de confiabilidade (SRE). |
 
 ---

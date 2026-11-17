@@ -9,18 +9,16 @@ Repositório central de estudos, automações, scripts, práticas recomendadas e
 | Módulo | Descrição |
 |---|---|
 | [**00-trilhas**](./00-trilhas) | Scripts e roteiros para criação de trilhas de aprendizado e desenvolvimento. |
-| [**01-ansible**](./01-ansible) | Playbooks, roles, inventários, boas práticas e automação de configuração com Ansible. |
-| [**02-automacao-e-scripting**](./02-automacao-e-scripting) | Scripts de automação em Python e Shell para tarefas operacionais. |
+| [**01-linux**](./01-linux) | Administração de sistemas Linux, permissões, systemd, redes, storage e troubleshooting. |
+| [**02-git**](./02-git) | Estratégias de branching, convenções de commit, hooks, rebase e resolução de conflitos. |
 | [**03-bash**](./03-bash) | Guia e snippets de Shell Scripting do básico ao avançado, gestão de processos e logs. |
-| [**04-ci-cd**](./04-ci-cd) | Pipelines CI/CD com GitHub Actions, GitLab CI, Jenkins, GitOps e quality gates. |
-| [**05-cloud-e-iac**](./05-cloud-e-iac) | Infraestrutura como Código (Terraform) e arquitetura em nuvem. |
-| [**06-devops-e-plataforma**](./06-devops-e-plataforma) | Engenharia de plataforma, esteiras de entrega contínua e padrões DevOps. |
-| [**07-docker**](./07-docker) | Fundamentos de containers, Dockerfile multi-stage, redes, volumes e Compose. |
-| [**08-git**](./08-git) | Estratégias de branching, convenções de commit, hooks, rebase e resolução de conflitos. |
-| [**09-linux**](./09-linux) | Administração de sistemas Linux, permissões, systemd, redes, storage e troubleshooting. |
-| [**10-observabilidade-e-sre**](./10-observabilidade-e-sre) | Métricas, tracing e logs com Prometheus, Grafana e práticas de confiabilidade (SRE). |
-| [**11-python-entrevistas**](./11-python-entrevistas) | Algoritmos, estruturas de dados, system design e preparação técnica em Python. |
-| [**old**](./old) | Arquivo histórico e versões anteriores preservadas (sem perda de dados). |
+| [**04-python**](./04-python) | Algoritmos, estruturas de dados, APIs, POO, testes e preparação técnica em Python. |
+| [**05-automacao**](./05-automacao) | Scripts de automação operacional em Python e Shell. |
+| [**06-docker**](./06-docker) | Fundamentos de containers, Dockerfile multi-stage, redes, volumes e Compose. |
+| [**07-cloud-e-iac**](./07-cloud-e-iac) | Infraestrutura como Código (Terraform) e arquitetura em nuvem. |
+| [**08-ansible**](./08-ansible) | Playbooks, roles, inventários, boas práticas e automação de configuração com Ansible. |
+| [**09-ci-cd**](./09-ci-cd) | Pipelines CI/CD com GitHub Actions, GitLab CI, Jenkins, GitOps e quality gates. |
+| [**10-observabilidade**](./10-observabilidade) | Métricas, tracing e logs com Prometheus, Grafana e práticas de confiabilidade (SRE). |
 
 ---
 

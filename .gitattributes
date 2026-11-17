@@ -1,0 +1,48 @@
+# ==========================================
+# Cross-Platform Line Endings & Git Attributes
+# ==========================================
+
+# Definir comportamento padrão para normalizar quebras de linha para LF no commit
+* text=auto eol=lf
+
+# Scripts e Arquivos de Código Fonte (sempre LF)
+*.sh text eol=lf
+*.bash text eol=lf
+*.zsh text eol=lf
+*.py text eol=lf
+*.yml text eol=lf
+*.yaml text eol=lf
+*.json text eol=lf
+*.md text eol=lf
+*.txt text eol=lf
+*.sql text eol=lf
+*.tf text eol=lf
+*.tfvars text eol=lf
+*.conf text eol=lf
+*.ini text eol=lf
+*.cfg text eol=lf
+Dockerfile* text eol=lf
+Makefile text eol=lf
+
+# Scripts específicos do Windows (sempre CRLF)
+*.bat text eol=crlf
+*.cmd text eol=crlf
+*.ps1 text eol=crlf
+
+# Binários - evitar que o Git altere bytes/quebras de linha
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
+*.ico binary
+*.pdf binary
+*.zip binary
+*.tar binary
+*.tar.gz binary
+*.tgz binary
+*.bz2 binary
+*.7z binary
+*.woff binary
+*.woff2 binary
+*.eot binary
+*.ttf binary

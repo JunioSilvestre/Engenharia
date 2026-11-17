@@ -1,0 +1,15 @@
+1|sql-fundamentals|SQL Fundamentals|SELECT, WHERE, ORDER BY, LIMIT, tipos de dados, NULL|Alta|relatorio-vendas-mensal|filtrar-pedidos-por-periodo|ordenar-com-nulls-por-ultimo
+2|joins|Joins|INNER, LEFT, RIGHT, FULL, CROSS, self join|Alta|relatorio-clientes-sem-pedido|encontrar-registros-orfaos|left-join-com-condicao-no-on
+3|aggregations|Aggregations|GROUP BY, HAVING, COUNT, SUM, AVG, FILTER|Alta|dashboard-kpis-diarios|agrupar-e-filtrar-grupos|count-distinct-vs-count
+4|subqueries-ctes|Subqueries e CTEs|Subconsultas, WITH, CTE recursiva|Alta|hierarquia-funcionarios-cte|ranking-com-subconsulta|cte-recursiva-simples
+5|window-functions|Window Functions|ROW_NUMBER, RANK, LAG, LEAD, PARTITION BY|Alta|ranking-vendas-por-regiao|top-n-por-grupo|lag-para-variacao
+6|indexes|Indexes|B-tree, índice composto, índice parcial, EXPLAIN|Alta|otimizacao-consulta-lenta|analisar-explain-analyze|ordem-das-colunas-no-indice-composto
+7|transactions|Transactions|BEGIN, COMMIT, ROLLBACK, isolamento, locks|Alta|transferencia-saldo-atomica|evitar-race-condition-select-for-update|savepoints
+8|constraints-schema|Constraints e modelagem|PK, FK, UNIQUE, CHECK, NOT NULL, normalização|Alta|modelagem-pedidos|normalizar-tabela-desnormalizada|on-delete-cascade-vs-restrict
+9|functions-triggers|Funções e triggers|PL/pgSQL, triggers, procedures|Média|auditoria-com-trigger|funcao-de-calculo-imposto|trigger-before-update
+10|json-postgres|JSON no PostgreSQL|jsonb, operadores, índices GIN|Média|eventos-jsonb-consulta|extrair-campo-jsonb|indice-gin-jsonb
+11|administracao|Administração|Roles, permissões, pg_dump, pg_restore, VACUUM|Alta|backup-restauracao-pg|conceder-acesso-somente-leitura|diagnosticar-vacuum-e-bloat
+12|performance|Performance|Planos, estatísticas, ANALYZE, particionamento|Alta|otimizar-relatorio-lento|comparar-plano-com-e-sem-indice|particionar-tabela-por-data
+13|replicacao-ha|Replicação e HA|Streaming replication, WAL, failover|Média|replica-de-leitura-pg|verificar-lag-de-replicacao|promover-replica
+14|sql-server-diferencas|Diferenças do SQL Server|T-SQL, TOP, ISNULL, MERGE|Média|migrar-consulta-tsql-para-pg|top-vs-limit|isnull-vs-coalesce
+15|cargas-idempotentes|Cargas e upsert|ON CONFLICT, MERGE, cargas idempotentes|Alta|carga-idempotente-csv|upsert-com-on-conflict|deduplicar-registros-por-chave

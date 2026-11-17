@@ -1,0 +1,14 @@
+1|docker-fundamentals|Docker Fundamentals|Imagens, containers, camadas, registry|Alta|primeiro-container-nginx|inspecionar-camadas-da-imagem|diferenca-imagem-e-container
+2|dockerfile|Dockerfile|Instruções, camadas, cache, ENTRYPOINT vs CMD|Alta|dockerfile-python-otimizado|cache-de-camadas|entrypoint-vs-cmd
+3|multi-stage-builds|Multi-stage builds|Builds em estágios, imagens enxutas|Alta|imagem-python-enxuta|separar-build-e-runtime|reduzir-tamanho-da-imagem
+4|volumes-storage|Volumes e armazenamento|Volumes, bind mounts, tmpfs|Alta|banco-com-volume-persistente|bind-mount-em-desenvolvimento|permissoes-em-volume
+5|rede|Redes|Bridge, host, overlay, DNS interno|Alta|duas-apps-em-rede-customizada|container-sem-acesso-a-rede|expor-porta-com-publish
+6|compose|Docker Compose|Serviços, depends_on, healthcheck, override|Alta|stack-app-banco-redis|healthcheck-com-depends-on|override-dev-e-prod
+7|seguranca|Segurança de containers|Usuário não-root, capabilities, scan, segredos|Alta|rodar-como-nao-root|scan-de-imagem|segredo-sem-variaveis-de-ambiente
+8|limites-recursos|Limites de recursos|cgroups, limites de CPU e memória|Média|limitar-memoria-do-container|diagnosticar-oom-killed|cpu-shares-vs-quota
+9|registry-tags|Registry e tags|Tags, registries, versionamento de imagens|Média|publicar-imagem-com-semver|politica-de-tags|pull-por-digest
+10|logs-depuracao|Logs e depuração|logs, exec, inspect, troubleshooting|Alta|diagnosticar-container-reiniciando|entrar-com-exec-e-depurar|inspecionar-variaveis-com-inspect
+11|fundamentos-internos|Fundamentos internos|Namespaces, cgroups, o que é um container de fato|Média|criar-processo-com-unshare|ler-cgroup-de-container|comparar-com-maquina-virtual
+12|orquestracao|Orquestração|Introdução a Kubernetes e Swarm, pods|Média|deploy-simples-no-kubernetes|pod-com-liveness-probe|escalar-replicas
+13|buildkit|BuildKit e buildx|Cache de build, buildx multi-arquitetura, secrets no build|Média|build-com-cache-remoto|build-multiarquitetura|secret-mount-no-build
+14|producao|Endurecimento para produção|Read-only filesystem, healthchecks, restart policy|Alta|container-read-only|politica-de-restart|checklist-de-producao

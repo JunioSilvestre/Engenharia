@@ -1,0 +1,15 @@
+1|git-fundamentals|Git Fundamentals|Modelo de objetos, commit, branch, HEAD, staging|Alta|historico-explicado|desfazer-ultimo-commit|inspecionar-objetos-com-cat-file
+2|branching-merge|Branching e Merge|Branches, merge fast-forward e 3-way|Alta|feature-branch-com-merge|resolver-conflito-simples|merge-sem-fast-forward
+3|rebase-historico|Rebase e histórico|Rebase, rebase interativo, cherry-pick|Alta|limpar-historico-antes-de-pr|squash-de-commits|cherry-pick-hotfix
+4|desfazer-recuperar|Desfazer e recuperar|reset, revert, reflog, restore|Alta|recuperar-commit-perdido-reflog|reverter-commit-publicado|reset-soft-vs-hard
+5|colaboracao-remota|Colaboração remota|Remotes, fetch, pull, push, forks|Alta|fluxo-fork-e-pr|sincronizar-fork|push-com-force-with-lease
+6|conflitos|Conflitos|Marcadores de conflito, ferramentas de merge|Alta|resolver-conflito-arquivo-config|conflito-durante-rebase|configurar-ferramenta-de-merge
+7|stash-worktree|Stash, worktree e bisect|Stash, worktree, bisect|Média|trabalho-em-andamento-com-stash|worktree-para-hotfix|git-bisect-achar-regressao
+8|tags-releases|Tags e releases|Tags anotadas, SemVer, releases|Média|versionamento-semver|tag-anotada-com-changelog|gerar-changelog-dos-commits
+9|git-hooks|Git Hooks|pre-commit, commit-msg, pre-push|Média|hook-lint-pre-commit|validar-mensagem-de-commit|hook-pre-push-testes
+10|configuracao|Configuração|.gitignore, config global, aliases, assinatura de commits|Média|gitignore-projeto-python|identidade-por-repositorio|assinar-commits-com-ssh
+11|estrategia-branches|Estratégia de branches|Git Flow, trunk-based, branches de release|Alta|estrategia-trunk-based|hotfix-em-release|protecao-da-branch-main
+12|code-review|Code Review|Pull requests, revisão, commits atômicos|Alta|pr-com-commits-atomicos|responder-comentario-de-review|template-de-pull-request
+13|investigacao-historico|Investigação do histórico|log, blame, shortlog, log -S|Média|quem-mudou-esta-linha|commit-que-removeu-funcao|estatisticas-de-contribuicao
+14|monorepo-submodulos|Monorepo e submódulos|Submodules, subtree, sparse checkout|Baixa|repositorio-com-submodule|sparse-checkout-de-pasta|subtree-vs-submodule
+15|seguranca-segredos|Segurança e segredos|Segredos no histórico, git-filter-repo, secret scanning|Alta|remover-segredo-do-historico|scan-de-segredos-no-repo|rotacionar-credencial-vazada

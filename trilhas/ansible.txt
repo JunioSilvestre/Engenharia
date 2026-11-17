@@ -1,0 +1,20 @@
+1|ansible-fundamentals|Ansible Fundamentals|Arquitetura, inventory, ad-hoc|Alta|primeiro-ping-ad-hoc|arquitetura-control-node|comando-ad-hoc-apt
+2|yaml|YAML|Sintaxe, listas, dicionários|Alta|corrigir-indentacao-yaml|lista-de-dicionarios|texto-multilinha-com-pipe
+3|inventory|Inventory|Estático, dinâmico, grupos, host_vars|Alta|inventario-por-ambiente|inventario-dinamico-cloud|grupos-aninhados
+4|configuration|Configuração|ansible.cfg, precedência de configuração|Média|ansible-cfg-do-projeto|sobrescrever-por-variavel-de-ambiente|forks-e-timeout
+5|modules|Modules|apt, dnf, copy, file, service, template|Alta|instalar-pacotes-multi-distro|copy-com-owner-e-mode|service-com-enabled
+6|playbooks|Playbooks|Estrutura, plays, execução, ordem|Alta|playbook-webserver-basico|ordem-de-plays|limit-e-start-at-task
+7|variables|Variables|vars, defaults, facts, precedência|Alta|variaveis-por-ambiente|defaults-em-role|precedencia-com-extra-vars
+8|conditionals|Conditionals|when, failed_when, changed_when|Alta|instalar-so-em-debian|failed-when-personalizado|when-com-registro
+9|loops|Loops|loop, with_items, loop_control|Média|criar-usuarios-em-lote|loop-com-dicionario|loop-control-com-label
+10|templates|Templates|Jinja2, filtros, templates|Alta|template-nginx-por-host|filtro-default-e-join|gerar-config-com-loop
+11|handlers|Handlers|Restart, reload, notify, listen|Alta|reiniciar-so-se-mudou|handler-com-listen|flush-handlers
+12|roles|Roles|Reutilização, organização, dependências, Galaxy|Alta|role-nginx-reutilizavel|role-com-dependencia|role-testada
+13|ssh-connectivity|SSH e connectivity|Chaves SSH, become, escalonamento de privilégio|Alta|conectar-com-chave|become-por-tarefa|ssh-config-do-controlador
+14|seguranca|Segurança|Ansible Vault, no_log, secrets|Alta|cifrar-senha-com-vault|no-log-em-tarefa|multiplos-vaults
+15|error-handling|Error Handling|block, rescue, always, retries|Alta|rollback-com-block-rescue|always-para-limpeza|retries-com-until
+16|facts|Facts|Gathering, custom facts, set_fact|Média|filtrar-facts-por-distro|custom-fact-em-ini|desligar-gather-facts
+17|tags|Tags|Execução seletiva, tags em roles|Média|rodar-so-a-tag-deploy|tag-never|tags-em-blocos
+18|collections|Collections|Namespaces, FQCN, requirements.yml|Média|instalar-colecao-community|fqcn-em-todas-as-tarefas|requirements-com-versao-fixada
+19|testing|Testing|Molecule, ansible-lint, check mode, idempotência|Alta|lint-no-playbook|check-mode-com-diff|molecule-role-com-docker
+20|automacao-avancada|Automação avançada|Dynamic inventory, CI/CD, AWX|Alta|inventario-dinamico-cloud|pipeline-ansible-no-git|executar-via-api-do-awx

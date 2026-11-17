@@ -1,0 +1,12 @@
+1|cicd-fundamentals|CI/CD Fundamentals|Integração contínua, entrega e implantação contínuas|Alta|pipeline-minimo-lint-teste|diagrama-fluxo-ci-cd|diferenca-entrega-e-implantacao
+2|github-actions|GitHub Actions|Workflows, jobs, steps, triggers, matrix|Alta|workflow-testes-em-pr|matrix-de-versoes-python|workflow-com-cache-de-dependencias
+3|gitlab-ci|GitLab CI|.gitlab-ci.yml, stages, runners|Média|pipeline-gitlab-multistage|runner-autohospedado|artefatos-entre-stages
+4|jenkins|Jenkins|Jenkinsfile, pipeline declarativa, agentes|Média|jenkinsfile-basico|agente-docker-no-jenkins|credenciais-no-jenkins
+5|build-artefatos|Build e artefatos|Build de wheels, imagens, cache, versionamento|Alta|build-wheel-e-publicar|cache-de-dependencias|versionar-artefato
+6|testes-no-pipeline|Testes no pipeline|Testes unitários, cobertura, integração, relatórios JUnit|Alta|gate-de-cobertura-minima|separar-testes-lentos|relatorio-junit
+7|estrategias-deploy|Estratégias de deploy|Blue-green, canary, rolling, rollback|Alta|deploy-blue-green-script|rollback-automatico|canary-com-metricas
+8|ambientes-secrets|Ambientes e secrets|Ambientes, variáveis, secrets, aprovações|Alta|ambientes-dev-staging-prod|secrets-no-pipeline|aprovacao-manual-em-prod
+9|infra-como-codigo|Infraestrutura como código|Terraform e Ansible no pipeline, plan/apply|Alta|pipeline-terraform-plan-apply|ansible-no-ci|deteccao-de-drift
+10|quality-gates|Quality gates|Lint, SAST, varredura de dependências|Alta|pipeline-com-ruff-e-bandit|scan-de-dependencias|falhar-em-vulnerabilidade-critica
+11|observabilidade-pipeline|Observabilidade do pipeline|Notificações, métricas de pipeline, logs de build|Média|notificacao-de-falha|medir-tempo-do-pipeline|logs-de-build-estruturados
+12|gitops|GitOps|Argo CD, Flux, estado desejado em Git|Média|gitops-com-argocd|reconciliacao-de-manifestos|promocao-entre-ambientes
